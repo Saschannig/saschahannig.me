@@ -10163,4 +10163,19 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+
 }
+
+
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; 
+} }
+
+.carousel-multi-item-2 .card img {
+align-items: center;  
+border-radius: 2px; }
+
+
