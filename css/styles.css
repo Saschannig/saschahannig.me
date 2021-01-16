@@ -10166,6 +10166,7 @@ header.masthead h1 {
 
 }
 
+/*Carousel*/
 
 @media (min-width: 768px) {
 .carousel-multi-item-2 .col-md-3 {
@@ -10175,7 +10176,19 @@ max-width: 100%;
 } }
 
 .carousel-multi-item-2 .card img {
-align-items: center;  
-border-radius: 2px; }
+border-radius: 2px; 
+background-color: transparent;
+}
 
 
+
+/*Align-Center*/
+
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
